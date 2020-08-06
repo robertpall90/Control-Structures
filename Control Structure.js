@@ -29,7 +29,7 @@ var sum = 0
 for (var i = 0; i < array.length; i++) {
     sum = sum + array[i]
 }
-console.log(sum)
+console.log(sum, " is the sum of the elements")
 
 console.log(" ");
 console.log(" ");
@@ -47,7 +47,7 @@ for (var i = 0; i < array.length; i++) {
         max = array[i]
     }
 }
-console.log(max)
+console.log(max, " is the biggest number of the array")
 
 console.log(" ");
 console.log(" ");
@@ -71,4 +71,4 @@ for (var i = 0; i < array.length; i++) {
     }
 }
 console.log(element1, " appears", count1, " times");
-console.log(element2, " appears", count2, " times");
+console.log(element2, " appears", count2, " times")
