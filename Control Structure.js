@@ -11,3 +11,12 @@ for (var i = 1; i <= 20; i++) {
         console.log(i)
     }
 }
+
+//3. Compute the sum of the elements of an array and display it in the console
+
+var array = [1, 43, 56, 7, 8, 34, 10, 67, 12, 23, 34, 1]
+var sum = 0
+for (var i = 0; i < array.length; i++) {
+    sum = sum + array[i]
+}
+console.log(sum)
